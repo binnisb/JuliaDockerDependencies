@@ -69,7 +69,7 @@ jobs:
           # Always attempt to pull a newer version of the image
           pull: true # optional, default is false
           # Push is a shorthand for --output=type=registry
-          # push: # optional, default is false
+          push: true # optional, default is false
           # List of secrets to expose to the build (eg. key=string, GIT_AUTH_TOKEN=mytoken)
           # secrets: # optional
           # List of secret files to expose to the build (eg. key=filename, MY_SECRET=./secret.txt)
